@@ -1,0 +1,22 @@
+﻿<Window x:Class="DuplicateTheApps.Bayar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DuplicateTheApps"
+        mc:Ignorable="d"
+        Title="Bayar" Height="450" Width="304">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="OK" HorizontalAlignment="Left" Height="35" Margin="205,355,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click"/>
+        <ListBox HorizontalAlignment="Left" Height="220" Margin="14,40,0,0" VerticalAlignment="Top" Width="265">
+            <ListBoxItem>OzO</ListBoxItem>
+            <ListBoxItem>GOYAR</ListBoxItem>
+            <ListBoxItem>HOpeePay</ListBoxItem>
+        </ListBox>
+
+    </Grid>
+</Window>
